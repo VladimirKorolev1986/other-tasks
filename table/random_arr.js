@@ -1,5 +1,3 @@
-
-
 function randomInteger(min, max) {
     var rand = min - 0.5 + Math.random() * (max - min + 1);
     rand = Math.round(rand);
@@ -8,12 +6,7 @@ function randomInteger(min, max) {
 
 let result = [];
 console.log(randomInteger(0, 99))
-
 const tbl = document.createElement('table')
-
-
-
-
 for (let i = 0; i<=4; i++) {
     let tr = document.createElement('tr')
     for (let i = 0; i<=5; i++) {
@@ -30,6 +23,4 @@ for (let i = 0; i<=4; i++) {
     }
     tbl.append(tr)
 }
-console.log(tbl)
-
 document.body.append(tbl)
